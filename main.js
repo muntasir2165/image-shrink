@@ -7,7 +7,7 @@ function createMainWindow() {
     title: 'ImageShrink',
     width: 500,
     height: 600,
-    icon: './assets/icons/Icon_256x256.png',
+    icon: `${__dirname}/assets/icons/Icon_256x256.png`,
   });
 
   // mainWindow.loadURL(`file://${__dirname}/app/index.html`);
